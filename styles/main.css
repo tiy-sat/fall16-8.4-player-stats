@@ -106,7 +106,36 @@ textarea {
   box-sizing: border-box;
 }
 
+body {
+  font-family: Helvetica;
+}
 
+.player {
+  display: inline-block;
+  width: 25%;
+}
+
+.progress{
+  background-color: rgba(189, 195, 199, 1.0);
+  width: 12rem;
+  height: 4rem;
+  position: relative;
+}
+
+.progress__bar {
+  height: 4rem;
+  background-color: rgba(155, 89, 182, 1.0);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.progress__barValue {
+  color: white;
+  line-height: 4rem;
+  font-size: 3rem;
+  padding-left: 1rem;
+}
 
 
 
