@@ -8,7 +8,6 @@ render(
   (
     <Router history={hashHistory}>
       <Route component={App}>
-        <Route path="/" component={ Blog } />
       </Route>
     </Router>
   ),

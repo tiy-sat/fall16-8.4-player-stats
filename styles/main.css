@@ -106,54 +106,6 @@ textarea {
   box-sizing: border-box;
 }
 
-body {
-  background-color: rgba(236, 240, 241,1.0);
-}
-
-.article {
-  border-bottom: 2px solid rgba(142, 68, 173, 0.33);
-  margin-bottom: 120px;
-  padding-right: 7px;
-  padding-bottom: 14px;
-  padding-left: 7px;
-}
-
-.article__description {
-  padding: 7px; /* 14px total (14-7) = 7px... The article container has 7px of padding */
-}
-
-.article__link {
-  background-color: rgba(142, 68, 173, 1);
-  border-radius: 4px;
-  color: white;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /*
-    Adding this margin top spacing on the link to push away from image area
-      As we are unsure if all articles will have images...
-  */
-  margin-top: 21px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 8px 16px;
-}
-
-.article__image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-
-.article__title {
-  color: rgba(142, 68, 173,1.0);
-}
-
-
-
-
 
 
 
@@ -252,28 +204,7 @@ body {
 */
 
 @media only screen and (min-width: 42em) {
-    /* Style adjustments for viewports that meet the condition */
-    .article {
-      display: inline-block;
-      margin-right: -4px;
-      width: 33%;
-    }
-}
 
-@media only screen and (min-width: 80em) {
-  .article__title {
-    font-size: 2.8rem;
-  }
-}
-
-@media only screen and (min-width:  n){
-  .article__link {
-    font-size: 2rem;
-  }
-
-  .article__description {
-    font-size: 1.8rem;
-  }
 }
 
 @media print,
